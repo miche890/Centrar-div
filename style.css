@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+    font-size: 6.25%;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+div * {
+    padding: 5rem;
+}
+
+.parent {
+    display: inline-block;
+    border: 5rem solid gray;
+    width: 400rem;
+    height: 250rem;
+    margin: 0% auto;
+    margin-top: 5%;
+    border-radius: 25rem;
+    box-shadow: 0rem 0rem 30rem 5rem rgb(198, 198, 198);
+}
+
+.box {
+    display: inline-block;
+    background-color: rgb(212, 212, 212);
+    margin: 0px auto;
+    border-radius: 25rem;
+    margin-top: -40rem;
+}
+
+p {
+    font-size: 16rem;
+}
+
+p.two {
+    padding: 2%;    
+}
+
+figure {
+    font-size: 16rem;
+    width: 250rem;
+    height: auto;
+    margin: 0px auto;
+}
+
+.imagen {
+    width: 100%;
+    border-radius: 25rem;
+}
